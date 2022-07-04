@@ -58,7 +58,7 @@ app.get('/characters', async (req, res) => {
 
 app.get('/characters/:characterId', async (req, res) => {
     const characterId = req.params.characterId
-
+    // axios.get()
 })
 
 app.get('/moveList/', (req, res) => {
